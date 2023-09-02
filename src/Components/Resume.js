@@ -58,6 +58,7 @@ class Resume extends Component {
           <p>{work.project1}</p>
           <p>{work.project2}</p>
           <p>{work.project3}</p>
+          <p>{work.project4}</p>
           <b >{work.skill}</b>
           <h3 id={work.letter}></h3>
               {buttonlink}<br></br><br></br>
@@ -86,6 +87,11 @@ class Resume extends Component {
                   </div>
               </div>)
           }
+          else if (work.title == "Climate Change Data Visualizer") {
+            buttonlink = (<a id="BrightOrange" href={work.link} className="button">
+                  <i className="fa fa-github"></i> Check out the code on Github
+              </a>)
+        }
           return (
               <div key={work.title}>
                   <h3>{work.title}</h3>
@@ -146,8 +152,7 @@ class Resume extends Component {
     });
       
     return (
-      <section id="resume">
-        <Slide left duration={1300}>
+        <section id="resume">
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -161,9 +166,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
 
-        <Slide left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
               <h1>
@@ -173,9 +176,7 @@ class Resume extends Component {
 
            <div className="nine columns main-col">{work}</div>
           </div>
-        </Slide>
         <div>
-        <Slide left duration={1300}>
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
@@ -186,9 +187,7 @@ class Resume extends Component {
                     <div className="nine columns main-col">{apps}</div>
 
                 </div>
-            </Slide>
 
-          <Slide left duration={1300}>
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
@@ -199,9 +198,7 @@ class Resume extends Component {
                     <div className="nine columns main-col">{web}</div>
 
                 </div>
-           </Slide>
 
-          <Slide left duration={1300}>
                 <div className="row work">
                     <div className="three columns header-col">
                         <h1>
@@ -212,10 +209,10 @@ class Resume extends Component {
                     <div className="nine columns main-col">{hackathons}</div>
 
                 </div>
-            </Slide>
 
             
         </div>
+
 
             <section style={{ background: "#052932", color: "white" }} id="banner">
                 <Fade duration={1000}>

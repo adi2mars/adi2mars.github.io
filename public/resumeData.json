@@ -65,11 +65,24 @@
       {
         "school": "University of Toronto",
         "degree": "Computer Science Specialist",
-        "graduated": "2025",
-        "description": "Second-year computer science student taking a variety of courses in computer science, math, and statistics"
+        "graduated": " December 2024",
+        "description": "Third-year computer science student taking a variety of courses in computer science, math, and statistics",
+        "awards":  "Honour Roll, Dean's List Scholar, UofT Scholar, Entrance Award of Distinction"
       }
     ],
     "work": [
+      {
+        "company": "Zurich Insurance",
+        "title": "Software Engineering Intern",
+        "years": "2023 Summer",
+        "description": "Developed a large-scale application using Java and Spring Boot to update/deploy rules to organize insured clients and act as a Business Rules Management System (BRMS)",
+        "project1": "Constructed a user-friendly interface with jQuery and Thymeleaf to generate rules for Red Hat Drools Rule Engine. User interface would take in user input such as conditions and actions to create the rule. The rule would be created in the form of a decision table in an excel file which can be deployed by the Drools Rule Engine. Interface also allows for the easy import and export of rules.",
+        "project2": "Implemented a REST API to deploy the generated rules on given data and tested using Swagger API. The rules generated can be easily deployed through an API call allowing for any external application to use the rules. This allows the application to act as common BRMS for all applications within the organization.",
+        "project3": "Efficiently used SQL database to store, retrieve and update decision tables and related information to rules. Allows the application to act as rules repository for all rules created.",
+        "project4": "Integrated CI/CD pipeline and deployed the application with Okta authentication through Azure Cloud Services",
+
+        "skill": "Java, Spring Boot, Azure Cloud Services, Red Hat Drools, JavaScript, jQuery, Thymeleaf, SQL, HTML, CSS"
+      },
       {
         "company": "City of Toronto - Toronto Paramedic Services",
         "title": "Software Engineering Intern",
@@ -78,6 +91,7 @@
         "project1": "Created a Resource Database application that enables schedulers to enter in frequently asked questions which others can search for. Developed an efficient searching algorithm and enabled the transfer of images/files. Created an acronym dictionary that would enable schedulers to use acronyms in their questions.",
         "project2": "Created a Shift Swap application that streamlined the process for paramedics to request swaps to their supervisor. Allow the employee to send a swap request to another employee for a certain number of dates which can be accepted, sending an email to the supervisor.",
         "project3": "Added features to existing applications such as importing excel tables to databases and creating an insert/update/view feature for databases",
+        "project4": "",
         "skill": "SQL, Golang, Perl, JavaScript, HTML, CSS, Apache"
       },
       {
@@ -88,6 +102,7 @@
         "project1": "Used Arduino and conductive thread to create the prototype device. Programmed with C++ on Arduino with external libraries to implement sensors and created a algorithm that would cycle through the sensors to ensure that accurate readings",
         "project2": "Developed a user-friendly companion app with Android Studio which allowed the user to input data and receive the sensor data through Bluetooth. Developed an algorithm to use this data to generate a risk assessment",
         "project3": "",
+        "project4": "",
         "skill": "Android Studio, Java, C++, Arduino",
         "link": "https://medium.com/@adi2mars/creating-a-prototype-device-to-detect-preliminary-symptoms-of-sepsis-503906b9dd27"
       },
@@ -99,6 +114,7 @@
         "project1": "Integrated computer vision to target and follow retro-reflective tape through OpenCV, Python on Raspberry Pi, Limelight Camera, and PixyCam.",
         "project2": "Programmed with Java in Visual Studio Code implementing sensors, PID (Proportional, Integral, Derivative) Control and other functions",
         "project3": "",
+        "project4": "",
         "skill": "OpenCV, Python, Java, PID Control",
         "letter": ""
       },
@@ -110,12 +126,21 @@
         "project1": "",
         "project2": "",
         "project3": "",
+        "project4": "",
         "skill": "",
         "link": "https://cancode.us/",
         "letter": "projects"
       }
     ],
     "Apps": [
+      {
+        "title": "Climate Change Data Visualizer",
+        "years": "2023",
+        "description": "A data visualization software which shows various climate change statistics based on geographical location, such as carbon emissions and average temperature rise per year.",
+        "project": "Used Java and JavaFx libraries to create an interactive world map in which countries are coloured according to the selected data category. Users are also allowed to select and search countries to view their climate change statistics. Agile and Git development was used to develop the application including weekly sprints and merge reviews. Software design patterns were implemented such as the Strategy and Command Pattern in order have proper code structure and allow for iterative development.",
+        "link": "https://github.com/waleed-haddad/Data-Visualization---Climate-Change",
+        "skill": "Agile, Git, Software Design Patterns, Java, JavaFx"
+      },
       {
         "title": "MorningBlast",
         "years": "2020",

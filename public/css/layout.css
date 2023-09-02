@@ -385,6 +385,13 @@ ul#nav li a:hover { color: #fe6928; }
 	background: #b44d0b;
 	color: white;
 }
+#resume #BrightOrange {
+	background: #FF6699;
+	color: white;
+}
+#resume #BrightOrange:hover{
+	color: black;
+}
 #resume #orange:hover{
 	color: black;
 }
