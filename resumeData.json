@@ -1,0 +1,305 @@
+{
+  "main": {
+    "name": "adi2mars",
+    "logo": "Explore. Learn. Create",
+    "description": "Welcome to the Personal Website of Aditya Kumar",
+    "image": "profilepic.jpg",
+    "bio": "Hi, my name is Aditya Kumar and adi2mars is the embodiment of my dream. The dream to make it big. The dream to make a dent in the universe as great as to one day walk on mars. After discovering my passion of computer science I have decoded the first steps to achieving my dream. Explore. Learn. Create. And that is what I am doing. I am exploring the different aspects of computer science, learning the ways, and then creating something unique, something one of a kind.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "adi2mars@gmail.com",
+    "phone": "555-555-5555",
+    "github": "https://github.com/adi2mars",
+    "linkedIn": "https://ca.linkedin.com/in/aditya-kumar-4a4628218",
+    "medium": "https://medium.com/@adi2mars",
+    "devPost": "https://devpost.com/adi2mars?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+    "project": "https://github.com/nordicgiant2/react-nice-resume",
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "devPostImage": "devpost-logo.png",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/tbaker_x",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/nordicgiant2/react-nice-resume",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "medium",
+        "url": "https://medium.com/@adi2mars/creating-a-prototype-device-to-detect-preliminary-symptoms-of-sepsis-503906b9dd27",
+        "className": "fa fa-medium"
+      }
+    ]
+  },
+  "resume": {
+    "github": "https://github.com/adi2mars",
+    "linkedIn": "https://ca.linkedin.com/in/aditya-kumar-4a4628218",
+    "medium": "https://medium.com/@adi2mars",
+    "devPost": "https://devpost.com/adi2mars?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of Toronto",
+        "degree": "Computer Science Specialist",
+        "graduated": " December 2024",
+        "description": "Third-year computer science student taking a variety of courses in computer science, math, and statistics",
+        "awards":  "Honour Roll, Dean's List Scholar, UofT Scholar, Entrance Award of Distinction"
+      }
+    ],
+    "work": [
+      {
+        "company": "Zurich Insurance",
+        "title": "Software Engineering Intern",
+        "years": "2023 Summer",
+        "description": "Developed a large-scale application using Java and Spring Boot to update/deploy rules to organize insured clients and act as a Business Rules Management System (BRMS)",
+        "project1": "Constructed a user-friendly interface with jQuery and Thymeleaf to generate rules for Red Hat Drools Rule Engine. User interface would take in user input such as conditions and actions to create the rule. The rule would be created in the form of a decision table in an excel file which can be deployed by the Drools Rule Engine. Interface also allows for the easy import and export of rules.",
+        "project2": "Implemented a REST API to deploy the generated rules on given data and tested using Swagger API. The rules generated can be easily deployed through an API call allowing for any external application to use the rules. This allows the application to act as common BRMS for all applications within the organization.",
+        "project3": "Efficiently used SQL database to store, retrieve and update decision tables and related information to rules. Allows the application to act as rules repository for all rules created.",
+        "project4": "Integrated CI/CD pipeline and deployed the application with Okta authentication through Azure Cloud Services",
+
+        "skill": "Java, Spring Boot, Azure Cloud Services, Red Hat Drools, JavaScript, jQuery, Thymeleaf, SQL, HTML, CSS"
+      },
+      {
+        "company": "City of Toronto - Toronto Paramedic Services",
+        "title": "Software Engineering Intern",
+        "years": "2022 Summer",
+        "description": "Full stack development of web applications that communicate with databases and use Apache servers, aiding the scheduling unit for paramedics.",
+        "project1": "Created a Resource Database application that enables schedulers to enter in frequently asked questions which others can search for. Developed an efficient searching algorithm and enabled the transfer of images/files. Created an acronym dictionary that would enable schedulers to use acronyms in their questions.",
+        "project2": "Created a Shift Swap application that streamlined the process for paramedics to request swaps to their supervisor. Allow the employee to send a swap request to another employee for a certain number of dates which can be accepted, sending an email to the supervisor.",
+        "project3": "Added features to existing applications such as importing excel tables to databases and creating an insert/update/view feature for databases",
+        "project4": "",
+        "skill": "SQL, Golang, Perl, JavaScript, HTML, CSS, Apache"
+      },
+      {
+        "company": "Lemelson-MIT InvenTeam",
+        "title": "Software and Hardware Lead",
+        "years": "2019 - 2020",
+        "description": "Created a wearable device with a companion Android app to monitor physiological symptoms of sepsis and generate a sepsis risk assessment.",
+        "project1": "Used Arduino and conductive thread to create the prototype device. Programmed with C++ on Arduino with external libraries to implement sensors and created a algorithm that would cycle through the sensors to ensure that accurate readings",
+        "project2": "Developed a user-friendly companion app with Android Studio which allowed the user to input data and receive the sensor data through Bluetooth. Developed an algorithm to use this data to generate a risk assessment",
+        "project3": "",
+        "project4": "",
+        "skill": "Android Studio, Java, C++, Arduino",
+        "link": "https://medium.com/@adi2mars/creating-a-prototype-device-to-detect-preliminary-symptoms-of-sepsis-503906b9dd27"
+      },
+      {
+        "company": "Dirty Mechanics FIRST Robotics Team",
+        "title": "Software Team Member",
+        "years": "2018 - 2021",
+        "description": "Integral member of the software team and integrated computer vision",
+        "project1": "Integrated computer vision to target and follow retro-reflective tape through OpenCV, Python on Raspberry Pi, Limelight Camera, and PixyCam.",
+        "project2": "Programmed with Java in Visual Studio Code implementing sensors, PID (Proportional, Integral, Derivative) Control and other functions",
+        "project3": "",
+        "project4": "",
+        "skill": "OpenCV, Python, Java, PID Control",
+        "letter": ""
+      },
+      {
+        "company": "canCode",
+        "title": "Volunteer Teacher/Curriculum Developer",
+        "years": "2019 - 2021",
+        "description": "Over 200 hours of community service of teaching and planning. Taught fundamentals of programming to young students and developed curriculums with Scratch and Code.org",
+        "project1": "",
+        "project2": "",
+        "project3": "",
+        "project4": "",
+        "skill": "",
+        "link": "https://cancode.us/",
+        "letter": "projects"
+      }
+    ],
+    "Apps": [
+      {
+        "title": "Climate Change Data Visualizer",
+        "years": "2023",
+        "description": "A data visualization software which shows various climate change statistics based on geographical location, such as carbon emissions and average temperature rise per year.",
+        "project": "Used Java and JavaFx libraries to create an interactive world map in which countries are coloured according to the selected data category. Users are also allowed to select and search countries to view their climate change statistics. Agile and Git development was used to develop the application including weekly sprints and merge reviews. Software design patterns were implemented such as the Strategy and Command Pattern in order have proper code structure and allow for iterative development.",
+        "link": "https://github.com/waleed-haddad/Data-Visualization---Climate-Change",
+        "skill": "Agile, Git, Software Design Patterns, Java, JavaFx"
+      },
+      {
+        "title": "MorningBlast",
+        "years": "2020",
+        "description": "An app that allows you to connect to your Spotify Account and select alarms that will play your favourite songs, news, or podcast to motivate you to wake up and get productive. Also gives you a daily update of the quote of the day, weather, and news from around the world.",
+        "project": "Used Work Manager, an API (Application Progamming Interface) to schedule tasks in the background of the app and the Alarm Manager, an API which allows for the deployment of apps on the exact time. Used the Spotify Java Library and the Spotify Android SDK to connect with the app and play specific track. Sent API requests from online APIs and parsed JSON objects (that is the data returned from APIs) to get the weather and and news. Used an RSS (Realy Simple Syndication) feed to get the quote of the day from BrainyQuotes. ",
+        "link": "https://www.youtube.com/watch?v=y6Vw7fCz1Wo",
+        "skill": "Android Studio, Java, Android and Third-Party APIs, JSON Parsing"
+      },
+      {
+        "title": "Plan4Success",
+        "years": "2019",
+        "description": "Plan 4 Success is an app that allows you to schedule your daily tasks, finish short term projects on time, and achieve long term goals. Includes customizable notifications and other planning abilities.",
+        "project": "Implemented functions of organizing daily tasks, assignments, and goals with notification capability. Explored creating dynamic lists with RecyclerView and background notifications with WorkManager",
+        "link": "https://play.google.com/store/apps/details?id=com.appv1.Plan4Success",
+        "link2": "https://medium.com/@adi2mars/how-i-created-my-first-app-part-1-4740886fd7a",
+        "skill": "Android Studio, Java, Android APIs, RecyclerView"
+      }
+    ],
+    "Hackathons": [
+      {
+        "title": "Tech4U",
+        "award": "Winner of DeerHacks 2022 - UiPath Competition",
+        "years": "2022",
+        "description": "An application which allows the user to track the prices and other related information of tech products in order to streamline the buying process and enable the user to get the best deals.",
+        "project": "Implemented web automation and web scraping with UiPath in order to search for products and retrieve the sales information in the form of a csv file. Created a discord bot with python for user interaction and displaying the information produced by UiPath.",
+        "skill": "Python, UiPath, Web-Automation, Web-Scraping, API"
+      },
+      {
+        "title": "Stocks4U",
+        "award": "UofTHacks",
+        "years": "2022",
+        "description": "Stocks4U is an innovative new application that allows the user to search any stock in a period of time and returns a graphical representation of the stock prices along with trendlines and the ability to extrapolate these trendlines",
+        "project": "Retrieves all the stock data in the form of a DataFrame object (pandas library) using the Yahoo Finance library. This DataFrame object is manipulated so that it can be plotted as a scatterplot using the Plotly library and plot the trendline of the user's choice. Implemented extrapolation using the numpy library and its arrays to plot further points on the trendline which is plotted onto the graph.",
+        "skill": "Python, Pandas, Numpy, Plotly"
+      },
+      {
+        "title": "Stop the Virus!",
+        "award": "PyJaC Hackathon",
+        "years": "2022",
+        "description": "A fun game (inspired by very real events) that involves players attempting to shoot down as many viruses as they can using the vaccine.",
+        "project": "Implemented randomness algorithms and basic physics and trigonometry to calculate the angle at which to shoot, calculate vectors for the shooting, and generate viruses falling from random locations.",
+        "skill": "Python, PyGame, Random, Physics",
+        "links": "links"
+      }
+    ],
+    "Web": [
+      {
+        "title": "adi2mars",
+        "years": "2020 - Present",
+        "description": "I had initially created this website with HTML, JavaScript and CSS as an opportunity to learn these skills. I created this website for absolutely no cost by obtaining a free domain name and then using a free server to setup the website",
+        "project": "In the summer of 2022, I reinvented the website with ReactJs and NodeJs.",
+        "skill": "ReactJs, NodeJs, JSX, HTML, JavaScript, CSS"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "VueJs",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Swift",
+        "level": "50%"
+      },
+      {
+        "name": "JAVA",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      }
+    ]
+  }
+}
