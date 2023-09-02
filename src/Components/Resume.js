@@ -91,12 +91,25 @@ class Resume extends Component {
             buttonlink = (<a id="BrightOrange" href={work.link} className="button">
                   <i className="fa fa-github"></i> Check out the code on Github
               </a>)
+              return (
+                <div key={work.title}>
+                    <h3>{work.title}</h3>
+                    <p className="info">
+                        Java Application
+                        <span>&bull;</span> <em className="date">{work.years}</em>
+                    </p>
+                    <b>{work.description}</b><br></br><br></br>
+                    <p>{work.project}</p>
+                    <b>{work.skill}</b><br></br>
+                    {buttonlink}<br></br><br></br>
+                </div>
+                )
         }
           return (
               <div key={work.title}>
                   <h3>{work.title}</h3>
                   <p className="info">
-                      Android App
+                      Android Application
                       <span>&bull;</span> <em className="date">{work.years}</em>
                   </p>
                   <b>{work.description}</b><br></br><br></br>
